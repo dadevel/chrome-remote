@@ -55,6 +55,12 @@ Or dump session cookies.
 ...
 ~~~
 
+Or execute arbitrary JavaScript in the remote browser.
+
+~~~ bash
+chrome-remote eval https://example.com/ ./script.js
+~~~
+
 # References
 
 - [Stealing Chrome cookies without a password](http://web.archive.org/web/20240616123506/https://mango.pdf.zone/stealing-chrome-cookies-without-a-password)
